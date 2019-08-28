@@ -80,45 +80,7 @@ paths:
         default:
           description: Unexpected error    
           
- /deposit/{pin}:
-  post:
-      operationId: PUT_deposit-pin
-      summary: Returns customer account information
-      tags:
-        - Deposit
-      parameters:
-        - in: path
-          name: pin
-          required: true
-          type: integer
-          minimum: 1
-          description: The pin of customers account
-      responses:
-        200:
-          description: A customer account object.
-          schema:
-            type: object
-            properties:
-              account_number:
-                type: number
-                example: 112233445566
-              account_name:
-                type: string
-                example: Vinula Uthsara
-              deposit_amount:
-                type: string
-                example: Rs. 10,000.00
-        400:
-          description: The specified pin is invalid (e.g. not a number).
-        404:
-          description: An account with the specified pin was not found.
-        default:
-          description: Unexpected error 
-          
-                
-                
-  
-
+ 
 
 
 
