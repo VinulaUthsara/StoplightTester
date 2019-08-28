@@ -1,0 +1,12 @@
+---
+swagger: "2.0"
+info:
+  description: swagger of stoplight test api
+  version: 1.0.0
+  title: StopligjtTest
+host: virtserver.swaggerhub.com
+basePath: /W7354/StopligjtTestAPI/1.0.0
+schemes:
+- https
+paths: {}
+definitions: {}
